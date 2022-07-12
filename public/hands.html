@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hands Gamemode</title>
+    <link rel="stylesheet" type="text/css" href="/src/css/iframe.css"/>
+    <style>
+        iframe {
+            display:block;
+            width: 100%; height:100%;
+            background: transparent;
+            position:fixed;  
+            top:60px;
+            left:450px;
+        }
+        input:hover{
+            color:aliceblue;
+            background-color: #9876
+        }
+    </style><!---->
+</head>
+<body background="./flash.jpg">
+    <input type="button" value ="back" onclick="javascript:location.href='index.html'"
+    style=" height:50px; 
+    width:125px; 
+    font-size: 26px;
+    box-shadow: -6px 6px 0 hsl(201, 80%, 21%);
+    border-radius: 20%;
+    background-color:rgb(193, 220, 235); " >
+    <div>
+        <iframe frameborder="0"
+            noresize="noresize"
+            src="http://127.0.0.1:5000"
+            frameborder="0">
+        </iframe>
+    </div>
+
+        
+</body>
+
+</html>
